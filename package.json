@@ -1,0 +1,16 @@
+{
+  "name": "kwai-tracker-webhook",
+  "version": "1.0.0",
+  "description": "Webhook gratuito para rastreamento de eventos Kwai via checkout VEGA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
